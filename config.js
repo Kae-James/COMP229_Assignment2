@@ -8,7 +8,7 @@ const config = {
  // Connection string for Portfolio database
   mongoUri:
     process.env.MONGODB_URI ||
-    'mongodb+srv://kjames50_db_user:Myamazingnewpassword1234@cluster0.olonkzq.mongodb.net/Portfolio'
+    'mongodb+srv://kjames50_db_user:password@cluster0.olonkzq.mongodb.net/Portfolio'
 }
 
 export default config
